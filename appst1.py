@@ -32,8 +32,8 @@ def main():
     st.title("KGF Business Case APP")
 
     # Get user inputs
-    one_year_cashflow = st.number_input("Enter the cash flow for the first year: ", min_value=0.0)
-    capital_investment = st.number_input("Enter the capital investment: ", min_value=0.0)
+    one_year_cashflow = st.number_input("Enter Y1 savings: ", min_value=0.0)
+    capital_investment = st.number_input("Enter investment: ", min_value=0.0)
 
     # Assuming a 12% discount rate
     discount_rate = 0.12
