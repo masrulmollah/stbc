@@ -47,7 +47,7 @@ def main():
     irr = calculate_irr(cashflows)
     payback_period = calculate_payback_period(cashflows)
 
-    st.write(f"Net Present Value (NPV): ${npv:.2f}")
+    st.write(f"Net Present Value (NPV): BDT{npv:.2f}")
     
     if irr is not None:
         st.write(f"Internal Rate of Return (IRR): {irr:.2f}%")
