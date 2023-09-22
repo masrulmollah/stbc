@@ -29,7 +29,7 @@ def calculate_payback_period(cashflows):
     return round(payback_period, 2)
 
 def main():
-    st.title("NPV, IRR, and Payback Period Calculator")
+    st.title("KGF Business Case APP")
 
     # Get user inputs
     one_year_cashflow = st.number_input("Enter the cash flow for the first year: ", min_value=0.0)
